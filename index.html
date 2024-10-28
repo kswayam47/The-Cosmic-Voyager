@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cosmic Voyager</title>
+    <link rel="icon" type="image/png" href="./logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400&family=Space+Grotesk:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body> 
+  <div class="w-full h-screen overflow-hidden">
+    <div class="w-full h-screen absolute top-0 left-0 z-[2] text-white font-['Helvetica Now Display']">
+    <nav class="w-full flex justify-between items-center py-3 px-3">
+      <h3 class="font-['Space_Grotesk'] text-xl font-light tracking-wider">Cosmic Voyager</h3>
+      <div class="flex gap-6">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+    <div class="absolute top-[13%] left-1/2 -translate-x-1/2 text-center">
+      <div class="w-full h-[5em] md:h-[6em] overflow-hidden mb-1.5">
+        <h1 class="heading text-5xl md:text-7xl h-full font-thin tracking-widest font-['Orbitron']">Earth</h1>
+        <h1 class="heading text-5xl md:text-7xl h-full font-thin tracking-widest font-['Orbitron']">Scilla</h1>
+        <h1 class="heading text-5xl md:text-7xl h-full font-thin tracking-widest font-['Orbitron']">Volcanic</h1>
+        <h1 class="heading text-5xl md:text-7xl h-full font-thin tracking-widest font-['Orbitron']">Venus</h1>
+      </div>
+      <p class="text-md font-['Space_Grotesk'] tracking-wide">Embark on an interstellar journey through cosmic wonders</p>
+      <div class="fading-line w-[300px] h-[1px] mx-auto mt-6 bg-gradient-to-r from-transparent via-white to-transparent"></div>
+    </div>
+    </div>
+    <canvas id="canvas"></canvas>
+  </div>
+  <script type="module" src="main.js"></script> 
+</body>
+</html>
